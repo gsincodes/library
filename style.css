@@ -1,0 +1,37 @@
+body{
+    padding: 0px;
+    margin:0px;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr ;
+    height: 100%;
+}
+
+.header{
+    grid-row: 1/2;
+    background-color: palevioletred;
+}
+
+.content{
+    grid-row: 2/3;
+    
+}
+.footer{
+    grid-row: 3/4;
+    background-color: bisque;
+}
+
+.card{
+    border: 1px solid brown;
+}
+
+p{
+    display: inline;
+}
+
+#new-book{
+    
+}
