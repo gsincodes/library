@@ -29,7 +29,9 @@ body{
 }
 
 p{
-    display: inline;
+    border: 1px solid brown;
+    margin: 0px;
+    padding: 0px;
 }
 
 #new-book{
